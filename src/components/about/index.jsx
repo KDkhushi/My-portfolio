@@ -15,15 +15,13 @@ const AboutDetails = () => {
             Architect of Enchantment
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+          I am an Information Technology engineering student at Netaji Subhas University of Technology, 
+          specializing in Network and Information Security. My journey has been a mix of deep exploration, 
+          hands-on learning, and a passion for solving complex problems. From tackling 300+ DSA questions to working 
+          as a Research Trainee at DRDO, every experience has sharpened my skills in ML, deep learning, and web development.
+          Beyond academics, I have gained practical experience through diverse projects. 
+          Open to internships at startups and companies, I am always eager to collaborate, build, and innovate. 
+          Let’s connect and create something impactful!
           </p>
         </ItemLayout>
 
@@ -31,7 +29,7 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            300+ <sub className="font-semibold text-base">questions solved</sub>
           </p>
         </ItemLayout>
 
@@ -39,63 +37,71 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            4+{" "}
-            <sub className="font-semibold text-base">years of experience</sub>
+            3+{" "}
+            <sub className="font-semibold text-base">years of coding</sub>
           </p>
         </ItemLayout>
 
-        <ItemLayout
-          className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
-        >
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
-        </ItemLayout>
+        <ItemLayout className={"col-span-full md:col-span-6 lg:col-span-6"}>
+        <div className="w-full h-auto p-4 rounded-lg border border-gray-300 bg-opacity-10">
+          <h3 className="text-lg font-semibold text-white">Education</h3>
+          <div className="mt-2">
+            <p className="font-medium">B.Tech in Information Technology and Network Security</p>
+            <p className="text-sm text-gray-300">2022 - Present</p>
+          </div>
+        </div>
+      </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
-        </ItemLayout>
+      <ItemLayout className={"col-span-full md:col-span-6 lg:col-span-6"}>
+        <div className="w-full h-auto p-4 rounded-lg border border-gray-300 bg-opacity-10">
+          <h3 className="text-lg font-semibold text-white">Schooling</h3>
+          <p className="text-sm">
+            <strong>DAV Centenary Public School</strong> [XII CBSE] — 
+            <span className="text-gray-300"> Percentage: 91.2</span>
+          </p>
+          <p className="text-sm">
+            <strong>Maharaja Aggarsain Public School</strong> [X CBSE] — 
+            <span className="text-gray-300"> Percentage: 95.2</span>
+          </p>
+        </div>
+      </ItemLayout>
+
+
+
 
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="CodeBucks"
+            src={`https://skillicons.dev/icons?i=html,bootstrap,css,express,nodejs,js,docker,firebase,git,github,postgres,linux,mongodb,mysql,nextjs,npm,react,replit,supabase,tailwind,threejs,vite,vscode,yarn,python,cpp,api`}
+            alt="Khushi"
             loading="lazy"
           />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
+          <div>
+        <h3 className="text-lg font-semibold text-white">The Wizard’s Tale</h3>
+        <div className="mt-2">
+            <p className="font-medium">I see every problem as a challenge to innovate. Whether it's building CNN models 
+          for stress detection or exploring network security, I break complex tasks into simple, 
+          solvable steps. My time at DRDO deepened my passion for machine learning and signal processing, 
+          reinforcing my belief in questioning the norm and experimenting fearlessly. The constant pursuit 
+          of knowledge and the thrill of solving real-world problems keep me motivated.</p>
+          </div>
+          </div>
         </ItemLayout>
 
+
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <Link
-            href="https://github.com/codebucks27/Nextjs-contentlayer-blog"
-            target="_blank"
-            className="w-full"
-          >
-            <img
-              className="w-full h-auto"
-              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=codebucks27&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="CodeBucks"
-              loading="lazy"
-            />
-          </Link>
+          <div>
+        <h3 className="text-lg font-semibold text-white">Magic Ledger</h3>
+        <div className="mt-2">
+            <p className="font-medium">Balancing academics and research has taught me discipline and efficiency. 
+            I focus on problem-solving, structured learning, and hands-on experimentation. Moving forward, I aim to dive deeper into AI, cybersecurity, and signal processing, working on impactful projects that blend research with real-world applications. Every challenge is a step toward innovation, and I’m excited to keep pushing boundaries.</p>
+          </div>
+          </div>    
         </ItemLayout>
+
       </div>
     </section>
   );

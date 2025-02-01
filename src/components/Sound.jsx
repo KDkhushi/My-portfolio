@@ -52,9 +52,9 @@ const Sound = () => {
     );
   }, []);
 
-    useEffect(() => {
-      handleFirstUserInteraction();
-  }, [handleFirstUserInteraction]);  
+  useEffect(() => {
+    handleFirstUserInteraction();
+  }, [handleFirstUserInteraction]);
 
   const toggle = () => {
     const newState = !isPlaying;

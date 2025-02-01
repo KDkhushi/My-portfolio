@@ -22,11 +22,10 @@ export const projectsData = [
     name: "My Portfolio",
     description: "Know more about me",
     date: "2025-02-01",
-    demoLink: "https://ecotracker.example.com",
   },
   {
     id: 2,
-    name: "Chatter Box",
+    name: "Chatty",
     description: "Connect with friends",
     date: "2025-01-20",
     demoLink: "https://chatty-tz75.onrender.com/login",

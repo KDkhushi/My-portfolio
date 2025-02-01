@@ -12,7 +12,7 @@ const inter = Inter({
 export const metadata = {
   title: {
     template:
-      "Portfolio | %s | Khushis",
+      "Portfolio | website",
     default:
       "Portfolio Created with Three.js and Tailwind CSS by Khushi",
   },

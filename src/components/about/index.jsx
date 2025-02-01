@@ -1,7 +1,5 @@
 import React from "react";
 import ItemLayout from "./ItemLayout";
-import Link from "next/link";
-
 const AboutDetails = () => {
   return (
     <section className="py-20 w-full">
@@ -21,7 +19,7 @@ const AboutDetails = () => {
           as a Research Trainee at DRDO, every experience has sharpened my skills in ML, deep learning, and web development.
           Beyond academics, I have gained practical experience through diverse projects. 
           Open to internships at startups and companies, I am always eager to collaborate, build, and innovate. 
-          Let’s connect and create something impactful!
+          Lets connect and create something impactful!
           </p>
         </ItemLayout>
 
@@ -80,9 +78,9 @@ const AboutDetails = () => {
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <div>
-        <h3 className="text-lg font-semibold text-white">The Wizard’s Tale</h3>
+        <h3 className="text-lg font-semibold text-white">The Wizard Tale</h3>
         <div className="mt-2">
-            <p className="font-medium">I see every problem as a challenge to innovate. Whether it's building CNN models 
+            <p className="font-medium">I see every problem as a challenge to innovate. Whether its building CNN models 
           for stress detection or exploring network security, I break complex tasks into simple, 
           solvable steps. My time at DRDO deepened my passion for machine learning and signal processing, 
           reinforcing my belief in questioning the norm and experimenting fearlessly. The constant pursuit 
@@ -97,7 +95,7 @@ const AboutDetails = () => {
         <h3 className="text-lg font-semibold text-white">Magic Ledger</h3>
         <div className="mt-2">
             <p className="font-medium">Balancing academics and research has taught me discipline and efficiency. 
-            I focus on problem-solving, structured learning, and hands-on experimentation. Moving forward, I aim to dive deeper into AI, cybersecurity, and signal processing, working on impactful projects that blend research with real-world applications. Every challenge is a step toward innovation, and I’m excited to keep pushing boundaries.</p>
+            I focus on problem-solving, structured learning, and hands-on experimentation. Moving forward, I aim to dive deeper into AI, cybersecurity, and signal processing, working on impactful projects that blend research with real-world applications. Every challenge is a step toward innovation, and I am excited to keep pushing boundaries.</p>
           </div>
           </div>    
         </ItemLayout>

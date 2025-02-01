@@ -22,7 +22,7 @@ export const projectsData = [
     name: "My Portfolio",
     description: "Know more about me",
     date: "2025-02-01",
-    demoLink: "https://chatty-tz75.onrender.com/login",
+    demoLink: "https://my-portfolio-three-teal-54.vercel.app/",
   },
   {
     id: 2,

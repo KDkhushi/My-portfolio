@@ -1,5 +1,6 @@
 import React from "react";
 import ItemLayout from "./ItemLayout";
+import Image from "next/image";
 const AboutDetails = () => {
   return (
     <section className="py-20 w-full">
@@ -68,7 +69,7 @@ const AboutDetails = () => {
 
 
         <ItemLayout className={"col-span-full"}>
-          <img
+          <Image
             className="w-full h-auto"
             src={`https://skillicons.dev/icons?i=html,bootstrap,css,express,nodejs,js,docker,firebase,git,github,postgres,linux,mongodb,mysql,nextjs,npm,react,replit,supabase,tailwind,threejs,vite,vscode,yarn,python,cpp,api`}
             alt="Khushi"
@@ -78,7 +79,7 @@ const AboutDetails = () => {
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <div>
-        <h3 className="text-lg font-semibold text-white">The Wizard Tale</h3>
+        <h3 className="text-lg font-semibold text-white">The Wizard&apos;s Tale</h3>
         <div className="mt-2">
             <p className="font-medium">I see every problem as a challenge to innovate. Whether its building CNN models 
           for stress detection or exploring network security, I break complex tasks into simple, 

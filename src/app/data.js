@@ -22,6 +22,7 @@ export const projectsData = [
     name: "My Portfolio",
     description: "Know more about me",
     date: "2025-02-01",
+    demoLink: "https://chatty-tz75.onrender.com/login",
   },
   {
     id: 2,
